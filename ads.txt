@@ -1,0 +1,10 @@
+# ads.txt
+# Este archivo debe estar publicado en la raíz de tu dominio:
+# https://tudominio.github.io/ads.txt
+#
+# Sustituye "pub-0000000000000000" por tu ID real de editor de Google AdSense
+# (lo encontrarás en tu cuenta de AdSense, en Cuenta > Información de la cuenta).
+# El resto de la línea (DIRECT, f08c47fec0942fa0) no se modifica: identifica
+# a Google como vendedor autorizado directo de tu inventario publicitario.
+
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

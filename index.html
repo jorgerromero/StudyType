@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generación 2008: Guía de Ayudas, Becas y Dinero Directo en 2026</title>
+<meta name="description" content="Todo lo que un nacido en 2008 puede cobrar en 2026: los 400€ del Bono Cultural Joven, hasta 300€ por sacar sobresalientes, promociones bancarias sin nómina y descuentos del 90% para viajar. Plazos, requisitos y cómo solicitarlo.">
+<meta name="keywords" content="bono cultural joven 2026, ayudas 18 años, beca sobresaliente, promociones bancarias sin nomina, verano joven 2026, nacidos en 2008">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0d6e4f">
+<link rel="canonical" href="https://tudominio.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Generación 2008: Guía de Ayudas y Dinero Directo en 2026">
+<meta property="og:description" content="400€ de cultura, hasta 300€ por notas, dinero por abrir cuenta y viajes con un 90% de descuento. La guía 2026 para los que cumplen 18 años.">
+<meta property="og:url" content="https://tudominio.github.io/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d6e4f'/%3E%3Ctext x='50' y='66' font-size='52' text-anchor='middle' fill='%23ffffff' font-family='Arial' font-weight='700'%3E%E2%82%AC%3C/text%3E%3C/svg%3E">
+
+<style>
+/* ============================================================
+   GENERACIÓN 2008 — hoja de estilos
+   Sistema de diseño "ficha-recibo": cada ayuda se presenta como
+   un vale económico con su importe y su fecha de caducidad.
+   ============================================================ */
+
+:root{
+  --bg: #f7f7f4;
+  --surface: #ffffff;
+  --surface-soft: #f1f1ed;
+  --text: #181a16;
+  --text-muted: #5c5f57;
+  --border: #e1e2dc;
+  --accent: #0d6e4f;
+  --accent-dark: #094f38;
+  --accent-soft: #e5f2ec;
+  --highlight: #d9531e;
+  --highlight-soft: #fbe9e0;
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --radius-l: 22px;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  --max: 1080px;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg: #14161a;
+    --surface: #1b1d21;
+    --surface-soft: #20232a;
+    --text: #f1f2ee;
+    --text-muted: #a3a79d;
+    --border: #2d3036;
+    --accent: #3fd99a;
+    --accent-dark: #2bb784;
+    --accent-soft: #16261f;
+    --highlight: #ff8a5e;
+    --highlight-soft: #2c1c14;
+  }
+}
+
+*,*::before,*::after{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+img{ max-width: 100%; display: block; }
+a{ color: var(--accent-dark); text-decoration-thickness: 1.5px; }
+a:hover{ color: var(--accent); }
+:focus-visible{ outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+h1,h2,h3{ line-height: 1.15; letter-spacing: -0.01em; font-weight: 800; }
+h2{ font-size: clamp(1.6rem, 1.1rem + 2vw, 2.3rem); margin: 0 0 .5rem; }
+h3{ font-size: 1.15rem; margin: 0 0 .4rem; }
+p{ margin: 0 0 1rem; color: var(--text); }
+.text-muted{ color: var(--text-muted); }
+
+.container{ width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+
+/* ---------- Header ---------- */
+.site-header{
+  position: sticky; top: 0; z-index: 50;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.site-header .bar{
+  display: flex; align-items: center; justify-content: space-between;
+  padding: .85rem 1.25rem;
+}
+.logo{
+  display: flex; align-items: center; gap: .5rem;
+  font-weight: 800; font-size: 1.05rem; color: var(--text); text-decoration: none;
+}
+.logo .mark{
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 8px;
+  background: var(--accent); color: #fff; font-family: var(--font-mono);
+  font-weight: 700;
+}
+nav.main-nav ul{ display: flex; gap: 1.4rem; list-style: none; margin: 0; padding: 0; }
+nav.main-nav a{
+  color: var(--text-muted); text-decoration: none; font-size: .92rem; font-weight: 600;
+}
+nav.main-nav a:hover{ color: var(--accent-dark); }
+
+#nav-toggle{ display: none; }
+.nav-label{ display: none; cursor: pointer; }
+
+@media (max-width: 780px){
+  nav.main-nav{
+    position: absolute; top: 100%; left: 0; right: 0;
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    max-height: 0; overflow: hidden; transition: max-height .25s ease;
+  }
+  nav.main-nav ul{ flex-direction: column; gap: 0; padding: .5rem 1.25rem; }
+  nav.main-nav a{ display: block; padding: .7rem 0; border-bottom: 1px solid var(--border); }
+  .nav-label{
+    display: inline-flex; flex-direction: column; gap: 4px; width: 26px;
+  }
+  .nav-label span{ height: 2px; background: var(--text); border-radius: 2px; }
+  #nav-toggle:checked ~ nav.main-nav{ max-height: 320px; }
+}
+
+/* ---------- Hero ---------- */
+.hero{ padding: 3.6rem 0 2.6rem; }
+.hero .eyebrow{ color: var(--accent-dark); }
+.hero h1{
+  font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.4rem);
+  max-width: 18ch;
+  margin: .6rem 0 1rem;
+}
+.hero .lede{
+  max-width: 56ch; font-size: 1.12rem; color: var(--text-muted);
+}
+.hero .updated{
+  display: inline-flex; align-items: center; gap: .4rem;
+  font-size: .8rem; color: var(--text-muted); font-family: var(--font-mono);
+  margin-top: .3rem;
+}
+.hero .updated::before{ content: "●"; color: var(--accent); }
+
+.stat-row{
+  display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.8rem;
+}
+.stat-pill{
+  display: flex; align-items: baseline; gap: .4rem;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 999px; padding: .55rem 1rem;
+}
+.stat-pill b{ font-family: var(--font-mono); font-size: 1.05rem; color: var(--highlight); }
+.stat-pill span{ font-size: .82rem; color: var(--text-muted); }
+
+.hero-cta{ margin-top: 2rem; display: flex; gap: .8rem; flex-wrap: wrap; }
+.btn{
+  display: inline-flex; align-items: center; gap: .4rem;
+  border-radius: var(--radius-s); padding: .75rem 1.3rem;
+  font-weight: 700; font-size: .95rem; text-decoration: none;
+  border: 1px solid transparent;
+}
+.btn-primary{ background: var(--accent); color: #fff; }
+.btn-primary:hover{ background: var(--accent-dark); color: #fff; }
+.btn-ghost{ background: transparent; color: var(--text); border-color: var(--border); }
+.btn-ghost:hover{ border-color: var(--accent); color: var(--accent-dark); }
+
+/* ---------- Eyebrow / section scaffolding ---------- */
+.eyebrow{
+  font-family: var(--font-mono); font-size: .78rem; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--accent-dark);
+  display: block; margin-bottom: .5rem;
+}
+
+section.aid{ padding: 3.2rem 0; border-top: 1px solid var(--border); }
+.aid .intro{ max-width: 62ch; color: var(--text-muted); font-size: 1.04rem; }
+
+.aid-layout{
+  display: grid; grid-template-columns: 1.55fr 1fr; gap: 2.2rem; margin-top: 1.6rem;
+  align-items: start;
+}
+@media (max-width: 860px){ .aid-layout{ grid-template-columns: 1fr; } }
+
+/* ---------- Voucher / "ficha-recibo" — elemento de firma ---------- */
+.voucher{
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-m); position: relative; overflow: hidden;
+}
+.voucher .v-top{ padding: 1.3rem 1.3rem 1rem; }
+.voucher .v-amount{
+  font-family: var(--font-mono); font-weight: 700;
+  font-size: clamp(2.1rem, 1.6rem + 1.5vw, 2.7rem);
+  color: var(--highlight); font-variant-numeric: tabular-nums; line-height: 1;
+}
+.voucher .v-amount sup{ font-size: .45em; margin-left: .15em; color: var(--text-muted); font-weight: 600; }
+.voucher .v-label{ color: var(--text-muted); font-size: .85rem; margin-top: .3rem; }
+.voucher .v-divider{
+  position: relative; height: 0; border-top: 1px dashed var(--border); margin: 0 1.3rem;
+}
+.voucher .v-divider::before, .voucher .v-divider::after{
+  content: ""; position: absolute; top: -8px; width: 16px; height: 16px;
+  background: var(--bg); border-radius: 50%; border: 1px solid var(--border);
+}
+.voucher .v-divider::before{ left: -8px; }
+.voucher .v-divider::after{ right: -8px; }
+.voucher .v-bottom{ padding: 1rem 1.3rem 1.3rem; display: grid; gap: .65rem; }
+.voucher .v-row{ display: flex; justify-content: space-between; gap: .6rem; font-size: .88rem; }
+.voucher .v-row dt{ color: var(--text-muted); }
+.voucher .v-row dd{ margin: 0; font-weight: 700; text-align: right; }
+
+/* ---------- Listas ---------- */
+ul.checklist{ list-style: none; margin: 1rem 0; padding: 0; display: grid; gap: .55rem; }
+ul.checklist li{ position: relative; padding-left: 1.7rem; }
+ul.checklist li::before{
+  content: "✓"; position: absolute; left: 0; top: .02em;
+  width: 1.15rem; height: 1.15rem; border-radius: 50%;
+  background: var(--accent-soft); color: var(--accent-dark);
+  font-size: .72rem; font-weight: 800; display: flex; align-items: center; justify-content: center;
+}
+
+ol.steps{ list-style: none; margin: 1.1rem 0; padding: 0; counter-reset: step; display: grid; gap: .8rem; }
+ol.steps li{ position: relative; padding-left: 2.5rem; counter-increment: step; }
+ol.steps li::before{
+  content: counter(step); position: absolute; left: 0; top: -.15em;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  background: var(--accent); color: #fff; font-family: var(--font-mono); font-weight: 700;
+  font-size: .85rem; display: flex; align-items: center; justify-content: center;
+}
+
+/* ---------- Tarjetas de bancos ---------- */
+.bank-grid{ display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; margin-top: 1.4rem; }
+@media (max-width: 700px){ .bank-grid{ grid-template-columns: 1fr; } }
+.bank-card{
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-m);
+  padding: 1.2rem 1.3rem;
+}
+.bank-card .bank-amount{
+  font-family: var(--font-mono); color: var(--highlight); font-weight: 700; font-size: 1.4rem;
+}
+.bank-card h3{ margin-top: .25rem; }
+.bank-card p{ font-size: .92rem; color: var(--text-muted); margin-bottom: .4rem; }
+.bank-card .tag{
+  display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .03em;
+  text-transform: uppercase; background: var(--accent-soft); color: var(--accent-dark);
+  border-radius: 999px; padding: .2rem .6rem; margin-bottom: .6rem;
+}
+
+/* ---------- Callout / nota ---------- */
+.callout{
+  border-left: 3px solid var(--accent); background: var(--accent-soft);
+  border-radius: 0 var(--radius-s) var(--radius-s) 0; padding: .9rem 1.1rem; margin: 1.2rem 0;
+  font-size: .92rem;
+}
+.callout.warn{ border-left-color: var(--highlight); background: var(--highlight-soft); }
+.callout strong{ color: var(--text); }
+
+/* ---------- FAQ ---------- */
+.faq{ display: grid; gap: .7rem; margin-top: 1.4rem; max-width: 74ch; }
+.faq details{
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-s);
+  padding: .2rem 1.1rem;
+}
+.faq summary{ cursor: pointer; font-weight: 700; padding: .9rem 0; list-style: none; position: relative; }
+.faq summary::-webkit-details-marker{ display: none; }
+.faq summary::after{ content: "+"; position: absolute; right: 0; top: .85rem; color: var(--accent); font-size: 1.2rem; }
+.faq details[open] summary::after{ content: "–"; }
+.faq details p{ padding-bottom: .9rem; color: var(--text-muted); margin: 0; }
+
+/* ---------- AdSense slots ---------- */
+.ad-slot{
+  max-width: var(--max); margin: 2.4rem auto; padding: 0 1.25rem;
+}
+.ad-slot .ad-inner{
+  border: 1px dashed var(--border); border-radius: var(--radius-s);
+  min-height: 100px; display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase;
+  font-family: var(--font-mono);
+}
+
+/* ---------- Disclaimer final ---------- */
+.disclaimer-box{
+  background: var(--surface-soft); border: 1px solid var(--border); border-radius: var(--radius-m);
+  padding: 1.5rem 1.6rem; margin: 2.5rem 0; font-size: .88rem; color: var(--text-muted);
+}
+
+/* ---------- Footer ---------- */
+footer.site-footer{ border-top: 1px solid var(--border); padding: 3rem 0 1.6rem; margin-top: 1.5rem; }
+.footer-grid{ display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2rem; }
+@media (max-width: 700px){ .footer-grid{ grid-template-columns: 1fr; } }
+.footer-grid h4{ font-size: .82rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); margin: 0 0 .8rem; }
+.footer-grid ul{ list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+.footer-grid a{ color: var(--text); text-decoration: none; font-size: .92rem; }
+.footer-grid a:hover{ color: var(--accent-dark); }
+.footer-bottom{
+  margin-top: 2.4rem; padding-top: 1.4rem; border-top: 1px solid var(--border);
+  display: flex; flex-wrap: wrap; gap: .6rem; justify-content: space-between;
+  font-size: .8rem; color: var(--text-muted);
+}
+
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior: auto; }
+  *{ transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bar container">
+    <a href="#inicio" class="logo"><span class="mark">€</span> Generación2008.guía</a>
+    <input type="checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="nav-label" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#bono-cultural">Bono Cultural</a></li>
+        <li><a href="#becas-sobresaliente">Becas por notas</a></li>
+        <li><a href="#bancos">Bancos</a></li>
+        <li><a href="#viajes">Viajes</a></li>
+        <li><a href="#faq">Dudas</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero container" id="inicio">
+    <span class="eyebrow">Guía 2026 · Nacidos en 2008</span>
+    <h1>Cumples 18 en 2026. Esto es todo el dinero que puedes pedir ya.</h1>
+    <p class="lede">Entre la cultura, las notas, los bancos y los trenes, un recién mayor de edad puede llegar a sumar varios cientos de euros este año sin tener nómina ni ahorros previos. Aquí están los importes reales, los plazos exactos y los pasos para no perderte ninguno.</p>
+    <p class="updated">Datos verificados a 25 de junio de 2026</p>
+
+    <div class="stat-row">
+      <div class="stat-pill"><b>400 €</b><span>Bono Cultural Joven</span></div>
+      <div class="stat-pill"><b>300 €</b><span>por sobresalientes</span></div>
+      <div class="stat-pill"><b>200 €</b><span>plan amigo bancario</span></div>
+      <div class="stat-pill"><b>90 %</b><span>descuento en tren</span></div>
+    </div>
+
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#bono-cultural">Ver el Bono Cultural →</a>
+      <a class="btn btn-ghost" href="#bancos">Ver dinero de bancos →</a>
+    </div>
+  </section>
+
+  <!-- BLOQUE ANUNCIO ADSENSE ENTRADA -->
+  <div class="ad-slot"><div class="ad-inner">Espacio publicitario</div></div>
+
+  <!-- ================= SECCIÓN 1: BONO CULTURAL JOVEN ================= -->
+  <section class="aid container" id="bono-cultural">
+    <span class="eyebrow">Ayuda 01 · Cultura</span>
+    <h2>400 € para gastar en cultura (o para comprarte una guitarra)</h2>
+    <p class="intro">El Bono Cultural Joven vuelve en su quinta edición y este año se queda corto quien lo piense solo para el cine o los libros: por primera vez puedes destinar el dinero íntegro a aprender, no solo a consumir.</p>
+
+    <div class="aid-layout">
+      <div>
+        <h3>¿Quién puede pedirlo?</h3>
+        <ul class="checklist">
+          <li>Haber nacido en 2008 (no importa si ya cumpliste 18 o los cumples más adelante este año).</li>
+          <li>Tener nacionalidad española o residencia legal en España. También aplica a solicitantes de asilo, protección temporal y extutelados.</li>
+          <li>Disponer de identificación digital activa: Cl@ve o Certificado Digital.</li>
+        </ul>
+
+        <h3>Las dos formas de gastarlo</h3>
+        <p><strong>Modalidad «Crea Cultura»:</strong> los 400 € íntegros a una sola categoría — cursos y talleres culturales (presenciales u online), instrumentos musicales o material de creación artística. Aquí entra esa guitarra, esas clases de fotografía o ese curso de edición de vídeo.</p>
+        <p><strong>Modalidad mixta:</strong> hasta 200 € para artes en vivo, audiovisuales y patrimonio (conciertos, cine, museos, festivales), y los 200 € restantes repartidos entre productos físicos (libros, música, videojuegos) y consumo cultural digital.</p>
+
+        <h3>Cómo solicitarlo</h3>
+        <ol class="steps">
+          <li>Entra en <strong>bonoculturajoven.gob.es</strong> e identifícate con Cl@ve o Certificado Digital.</li>
+          <li>Elige la modalidad de gasto: no podrás cambiarla después.</li>
+          <li>Espera la resolución y recibe tu tarjeta prepago, física o virtual.</li>
+          <li>Gástalo en cualquiera de los casi 4.000 comercios y entidades adheridas antes de que pasen 12 meses.</li>
+        </ol>
+
+        <div class="callout">
+          <strong>Dato útil:</strong> cada compra exige subir el ticket o factura a la plataforma para que se valide como gasto cultural. Guarda siempre el justificante.
+        </div>
+      </div>
+
+      <div class="voucher">
+        <div class="v-top">
+          <div class="v-amount">400<sup>€</sup></div>
+          <div class="v-label">Bono Cultural Joven 2026</div>
+        </div>
+        <div class="v-divider"></div>
+        <dl class="v-bottom">
+          <div class="v-row"><dt>Plazo de solicitud</dt><dd>22 jun – 31 oct 2026</dd></div>
+          <div class="v-row"><dt>Requisito de edad</dt><dd>Nacidos en 2008</dd></div>
+          <div class="v-row"><dt>Validez del saldo</dt><dd>12 meses</dd></div>
+          <div class="v-row"><dt>Dónde pedirlo</dt><dd>bonoculturajoven.gob.es</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOQUE ANUNCIO ADSENSE INTERMEDIO 1 -->
+  <div class="ad-slot"><div class="ad-inner">Espacio publicitario</div></div>
+
+  <!-- ================= SECCIÓN 2: BECAS SOBRESALIENTE ================= -->
+  <section class="aid container" id="becas-sobresaliente">
+    <span class="eyebrow">Ayuda 02 · Notas</span>
+    <h2>Hasta 300 € solo por haber sacado sobresalientes</h2>
+    <p class="intro">Varias cajas rurales premian en efectivo el esfuerzo de 2º de Bachillerato y 2º de Grado Medio de FP. Ojo: son ayudas regionales, no nacionales, así que solo aplican si has estudiado en la zona de cada entidad.</p>
+
+    <div class="callout warn">
+      <strong>Importante:</strong> estas becas no son para toda España. Comprueba si tu comunidad autónoma está cubierta antes de hacerte ilusiones.
+    </div>
+
+    <div class="bank-grid">
+      <div class="bank-card">
+        <span class="tag">Andalucía y Extremadura</span>
+        <div class="bank-amount">100 € / sobresaliente</div>
+        <h3>Caja Rural del Sur</h3>
+        <p>Hasta 300 € (máximo 3 sobresalientes) si has aprobado sin suspensos 2º de Bachillerato o 2º de FP de Grado Medio en un centro oficial de Andalucía o Extremadura.</p>
+        <p><strong>Plazo:</strong> hasta el 30/09/2026. Necesitas tener cuenta abierta en la entidad antes del 15/09/2026 para que te puedan pagar. Solo 6.000 plazas.</p>
+      </div>
+      <div class="bank-card">
+        <span class="tag">Provincia de Jaén</span>
+        <div class="bank-amount">100 € / sobresaliente</div>
+        <h3>Caja Rural de Jaén</h3>
+        <p>Hasta 300 € por sobresaliente o matrícula de honor en las notas finales del curso. Edad entre 15 y 30 años.</p>
+        <p><strong>Plazo:</strong> el formulario se abre el 01/07/2026; la revisión de expedientes se cierra a principios de octubre.</p>
+      </div>
+      <div class="bank-card">
+        <span class="tag">Navarra, La Rioja y País Vasco</span>
+        <div class="bank-amount">100 € / sobresaliente</div>
+        <h3>Caja Rural de Navarra · Rural Kutxa</h3>
+        <p>«Beca Sobresaliente» en Navarra y La Rioja, «Beka Bikain» en País Vasco. Hasta 300 € (3 sobresalientes), también si no eres cliente todavía.</p>
+        <p><strong>Plazo:</strong> del 1 de junio al 30 de septiembre de 2026. El pago llega como máximo 30 días después de aprobarse.</p>
+      </div>
+      <div class="bank-card">
+        <span class="tag">Requisito común</span>
+        <div class="bank-amount">Sin suspensos</div>
+        <h3>Lo que pide casi todo el mundo</h3>
+        <p>Expediente académico oficial en PDF (no vale foto ni captura), haber aprobado todo el curso, y cobrar el dinero en una cuenta a tu nombre en la entidad correspondiente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOQUE ANUNCIO ADSENSE INTERMEDIO 2 -->
+  <div class="ad-slot"><div class="ad-inner">Espacio publicitario</div></div>
+
+  <!-- ================= SECCIÓN 3: BANCOS SIN NÓMINA ================= -->
+  <section class="aid container" id="bancos">
+    <span class="eyebrow">Ayuda 03 · Bancos</span>
+    <h2>Dinero por abrir una cuenta, sin nómina ni permanencia</h2>
+    <p class="intro">A los 18 años casi nadie tiene una nómina que domiciliar, y la mayoría de estas promociones tampoco la piden. Esto es lo que de verdad puedes conseguir solo con tu DNI y un poco de paciencia.</p>
+
+    <div class="bank-grid">
+      <div class="bank-card">
+        <span class="tag">ING · Plan Amigo</span>
+        <div class="bank-amount">20 € por amigo (hasta 200 €)</div>
+        <h3>ING NoCuenta</h3>
+        <p>Cada amigo que abra una Cuenta NoCuenta usando tu invitación te da 20 € brutos, hasta un máximo de 10 amigos al año. No exige nómina ni ningún tipo de permanencia.</p>
+        <p>Además, ING suele lanzar promociones de bienvenida puntuales para menores de 28 años (en junio de 2026, por ejemplo, hasta 60 € en tres pagos). Estas campañas rotan, así que comprueba siempre las condiciones vigentes en ing.es.</p>
+      </div>
+      <div class="bank-card">
+        <span class="tag">BBVA · Cuenta Online Sin Comisiones</span>
+        <div class="bank-amount">50 €</div>
+        <h3>BBVA</h3>
+        <p>Por gastar 50 € con tu tarjeta de débito durante los primeros 45 días tras abrir la cuenta. No necesitas domiciliar nómina ni recibos para este tramo.</p>
+        <p>Si además invitas amigos, el Plan Amigo de BBVA puede sumarte hasta 660 € al año (50 € por cada amigo que abra cuenta y use su tarjeta).</p>
+      </div>
+      <div class="bank-card">
+        <span class="tag">Revolut · Invita a tus amigos</span>
+        <div class="bank-amount">Variable (10 € – 200 €)</div>
+        <h3>Revolut</h3>
+        <p>Solo cobra quien invita: tu amigo se abre la cuenta gratis con tu enlace, hace los pagos que pida la campaña y a ti te llega una recompensa que cambia cada mes. La mayoría son de 10-25 €, aunque a veces aparecen promociones fijas más altas.</p>
+        <p>No pide nómina porque ni está pensada para eso: es ideal como segunda cuenta para viajar y para Bizum sin comisiones.</p>
+      </div>
+      <div class="bank-card">
+        <span class="tag">N26 · Programa de recomendación</span>
+        <div class="bank-amount">15 € por amigo (hasta 1.500 €)</div>
+        <h3>N26</h3>
+        <p>Tu amigo se da de alta con tu código y, en cuanto hace un primer pago de 20 € o más con su tarjeta, a ti te ingresan 15 €. Sin límite de invitados conocido y sin pedir nómina ni saldo mínimo.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>Antes de lanzarte:</strong> estos importes suelen ser «brutos», es decir, llevan una retención de aproximadamente el 19% como rendimiento de capital, y hay que declararlos en la Renta del año siguiente. Lee siempre las bases legales de la promoción concreta antes de abrir nada: los importes y plazos cambian con frecuencia.
+    </div>
+  </section>
+
+  <!-- BLOQUE ANUNCIO ADSENSE INTERMEDIO 3 -->
+  <div class="ad-slot"><div class="ad-inner">Espacio publicitario</div></div>
+
+  <!-- ================= SECCIÓN 4: VERANO JOVEN ================= -->
+  <section class="aid container" id="viajes">
+    <span class="eyebrow">Ayuda 04 · Viajes</span>
+    <h2>Hasta el 90% de descuento para moverte este verano</h2>
+    <p class="intro">El Ministerio de Transportes vuelve a subvencionar los viajes de los jóvenes con Verano Joven 2026. Si naciste en 2008, entras de pleno derecho, igual que cualquier joven hasta los 30 años.</p>
+
+    <div class="aid-layout">
+      <div>
+        <h3>Los descuentos exactos</h3>
+        <ul class="checklist">
+          <li><strong>90%</strong> en trenes de Media Distancia convencional y red de Ancho Métrico.</li>
+          <li><strong>50%</strong> en Avant (billete sencillo o ida y vuelta).</li>
+          <li><strong>50%</strong> en AVE, Avlo, Alvia, Intercity y Euromed, con un máximo de 30 € de descuento por billete.</li>
+          <li><strong>90%</strong> en autobuses de titularidad estatal.</li>
+          <li><strong>50%</strong> en el pase Interrail Global Flexible de 10 días en 2 meses.</li>
+        </ul>
+
+        <h3>Cómo conseguir el código</h3>
+        <ol class="steps">
+          <li>Regístrate en <strong>veranojoven.transportes.gob.es</strong> con tu DNI, al menos 24 horas antes de comprar tu primer billete.</li>
+          <li>Recibirás un código personal e intransferible.</li>
+          <li>Introduce ese código al comprar tu billete, en la web o app del operador.</li>
+        </ol>
+
+        <div class="callout">
+          <strong>Extra para fan de Renfe:</strong> si eres socio de Más Renfe, cada dos viajes realizados con Verano Joven te da derecho a un billete gratis de AVE o Larga Distancia (máximo dos billetes gratis por persona).
+        </div>
+      </div>
+
+      <div class="voucher">
+        <div class="v-top">
+          <div class="v-amount">90<sup>%</sup></div>
+          <div class="v-label">Verano Joven 2026</div>
+        </div>
+        <div class="v-divider"></div>
+        <dl class="v-bottom">
+          <div class="v-row"><dt>Viajes válidos</dt><dd>1 jul – 30 sep 2026</dd></div>
+          <div class="v-row"><dt>Edad</dt><dd>Entre 18 y 30 años</dd></div>
+          <div class="v-row"><dt>Registro previo</dt><dd>Mínimo 24 h antes</dd></div>
+          <div class="v-row"><dt>Dónde registrarse</dt><dd>veranojoven.transportes.gob.es</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOQUE ANUNCIO ADSENSE FINAL -->
+  <div class="ad-slot"><div class="ad-inner">Espacio publicitario</div></div>
+
+  <!-- ================= FAQ ================= -->
+  <section class="aid container" id="faq">
+    <span class="eyebrow">Antes de irte</span>
+    <h2>Preguntas frecuentes</h2>
+
+    <div class="faq">
+      <details>
+        <summary>¿Puedo pedir el Bono Cultural Joven y, a la vez, las promociones bancarias?</summary>
+        <p>Sí. Son ayudas de organismos distintos y no son incompatibles entre sí. Puedes solicitar el Bono Cultural, presentarte a una beca por notas y abrir cuenta en varios bancos sin ningún problema.</p>
+      </details>
+      <details>
+        <summary>No soy de Andalucía, Extremadura, Jaén, Navarra, La Rioja o País Vasco. ¿Existe alguna beca por notas para mí?</summary>
+        <p>De momento, las becas «100 € por sobresaliente» que recoge esta guía son iniciativas regionales de cajas rurales concretas. Si no estudias en esas comunidades, conviene que consultes si tu comunidad autónoma o tu propia caja de ahorros local tiene un programa equivalente.</p>
+      </details>
+      <details>
+        <summary>¿El dinero de las promociones bancarias tributa?</summary>
+        <p>Sí, normalmente se considera rendimiento de capital mobiliario y se abona con una retención (en torno al 19%). Tendrás que incluirlo en tu próxima declaración de la Renta, aunque sea tu primer año como contribuyente.</p>
+      </details>
+      <details>
+        <summary>¿Puedo abrir varias cuentas bancarias solo para acumular promociones?</summary>
+        <p>Puedes tener cuentas en distintos bancos, pero abrir y cerrar cuentas de forma repetida solo para cobrar bonos puede hacer que algunas entidades te excluyan de futuras promociones. Léete siempre las bases legales: ahí se especifica qué se considera "nuevo cliente".</p>
+      </details>
+      <details>
+        <summary>¿Verano Joven sirve también para autobuses urbanos o solo para viajes largos?</summary>
+        <p>Aplica a trenes de Media y Larga Distancia, AVE/Avlo, Avant, autobuses de titularidad estatal e Interrail. No cubre el transporte urbano (metro, bus de ciudad) ni los servicios de Cercanías.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="disclaimer-box">
+      <strong>Aviso importante:</strong> esta página es una guía informativa elaborada de forma independiente. No somos el Ministerio de Cultura, el Ministerio de Transportes, ninguna caja rural ni ninguno de los bancos mencionados, y no gestionamos ninguna solicitud. Los importes, plazos y condiciones de ayudas públicas y promociones bancarias pueden cambiar sin previo aviso. Antes de solicitar cualquier ayuda, confirma siempre los datos en la web oficial correspondiente. Esta guía no constituye asesoramiento financiero ni legal. Última actualización de contenidos: 25 de junio de 2026.
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#inicio" class="logo"><span class="mark">€</span> Generación2008.guía</a>
+      <p class="text-muted" style="margin-top:.8rem; max-width:32ch; font-size:.9rem;">Guía independiente sobre ayudas públicas y promociones financieras para jóvenes que cumplen 18 años en 2026.</p>
+    </div>
+    <div>
+      <h4>Secciones</h4>
+      <ul>
+        <li><a href="#bono-cultural">Bono Cultural Joven</a></li>
+        <li><a href="#becas-sobresaliente">Becas por notas</a></li>
+        <li><a href="#bancos">Promociones bancarias</a></li>
+        <li><a href="#viajes">Verano Joven</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="aviso-legal.html">Aviso Legal</a></li>
+        <li><a href="privacidad.html">Política de Privacidad</a></li>
+        <li><a href="cookies.html">Política de Cookies</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> Generación2008.guía — Contenido informativo, no oficial.</span>
+    <span>Hecho a mano, sin frameworks.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
